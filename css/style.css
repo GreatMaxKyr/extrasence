@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+}
+
+.main {
+    display: inline-block;
+    
+    margin-top: 120px;
+}
+
+.again {
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 15px 20px 0;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+
+.again:hover {
+    color: #fff;
+    background-color: #000;
+    transition: all 0.5s;
+}
+
+p {
+    color: #000;
+}
+
+.again,
+p {
+    font-size: 20px;
+    font-family: Minecraftia;
+    text-decoration: none;
+    
+}
+
+.no {
+    color: tomato;
+}
+
+.cool-select,
+.cool-select select {
+    position: relative;
+    display: inline-block;
+    min-width: 100px;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.cool-select {
+    background-color: #fff;
+}
+
+.cool-select:before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    border: 4px solid transparent;
+    border-bottom-color: #000;
+    border-right-color: #000;
+    transform: rotate(45deg);
+    z-index: 0;
+    transition: all 0.5s;
+}
+
+.cool-select select {
+    padding: 10px 20px 0;
+    border: 1px solid #000;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-family: Minecraftia;
+}
+
+.cool-select select:hover {
+    border: 2px solid #000;
+    transition: all 0.5s;
+}
+
+.cool-select:hover.cool-select:before {
+    border: 6px solid transparent;
+    border-bottom-color: #000;
+    border-right-color: #000;
+    top: 10px;
+    transition: all 0.5s;
+}
+
+.submit {
+    font-family: Minecraftia;
+    background-color: #fff;
+    border: none;
+    margin-left: 10px;
+    border: 1px solid #000;
+    padding: 10px 20px 0;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    color: #fff;
+    background-color: #000;
+    transition: all 0.5s;
+}
